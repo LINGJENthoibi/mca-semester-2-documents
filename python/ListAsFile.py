@@ -1,0 +1,8 @@
+file = open("example.txt","r")
+content = file.read()
+line = file.readline()
+lines = file.readlines()
+print(content)
+file = open("example.txt","a")
+file.write("Hello, Python\n")
+file.close()
